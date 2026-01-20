@@ -80,7 +80,6 @@ color: white;
     
 }
 .image #img2{
-  /* top: 50%; */
   position: absolute;
   left: 50%;
   top: 50%;
@@ -94,4 +93,117 @@ color: white;
     position: absolute;
     left: 80%;
   transform: translate(-50%,-50%);
+}
+/* about */
+.about{
+    background-color: #1A0B2E;
+    padding: 50px 200px 0;
+}
+.about-info{
+    color: white;
+    text-align: center;
+    margin-bottom: 160px;
+}
+.about-info h1{
+font-size: 48px;
+font-weight: bold;
+margin-bottom: 16px;
+}
+.about-info p{
+line-height: 20px;
+}
+.about-num{
+    display: flex;
+   padding-bottom: 120px;
+}
+.part{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 16px;
+}
+.span{
+    color: #00FF88;
+    font-size: 48px;
+}
+.techwaves{
+    background-color: #230E3D;
+    padding: 120px 200px;
+    /* width: 100%; */
+}
+.techwaves h1{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
+
+}
+.content>div{
+   border-radius: 40px; 
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   text-align: left;
+   /* padding: 0 40px; */
+
+   width: 100%;
+}
+.content1{grid-area: c1; background-color: #351165; }
+.content2{grid-area: c2; background-color: #351165;}
+.content3{grid-area: c3; background-color: #351165;}
+.content4{grid-area: c4; background-color: #351165;}
+.content5{grid-area: c5; background-color: #351165;}
+.techwaves .content{
+display: grid;
+gap: 30px;
+grid-template-columns: repeat(3,1fr);
+grid-auto-rows: minmax(150px,auto);
+grid-template-areas:
+"c1 c2 c2"
+"c1 c3 c3"
+"c4 c4 c5";
+}
+.feature{
+    padding: 120px 200px 0;
+    background-color: #1A0B2E;
+}
+/* video  */
+.box-video{
+    display: flex;
+    /* grid-template-columns: repeat(3,1fr); */
+    gap: 30px;
+    justify-content: center;
+    /* width: 100%; */
+}
+.box-video>div{
+    width: 100%;
+    color: white;
+}
+#video1 , #video2 , #video3{
+    border-radius: 30px;
+    /* border: 1px solid red; */
+    overflow: hidden;
+    background-color: #250D44;
+}
+.feature-info h2{
+    margin-bottom: 40px;
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+.box-video .content{
+    padding: 24px;
+}
+.box-video h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+/* host */
+.host{
+    margin-top: 120px;
 }

@@ -407,7 +407,7 @@ nav button {
 }
 
 /* responsive */
-@media screen and (max-width:600px) {
+@media screen and (max-width:576px) {
     nav {
         display: flex;
         justify-content: space-between;

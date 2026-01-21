@@ -230,26 +230,34 @@ nav button {
 .content1 {
     grid-area: c1;
     background-color: #351165;
+    /* padding: 107.5px  0 107.5px 40px ; */
+    /* margin-right: -70px; */
+    /* padding-left: 20px; */
 }
 
 .content2 {
     grid-area: c2;
     background-color: #351165;
+    padding: 40px  0;
+    
 }
 
 .content3 {
     grid-area: c3;
     background-color: #351165;
+    padding: 40px 40px 40px 0;
 }
 
 .content4 {
     grid-area: c4;
     background-color: #351165;
+     padding: 40px 0;
 }
 
 .content5 {
     grid-area: c5;
     background-color: #351165;
+     padding: 40px 0;
 }
 
 .techwaves .content {

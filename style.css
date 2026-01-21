@@ -1,5 +1,13 @@
 *{
     margin: 0 auto;
+    padding: 0;
+}
+
+.font-style{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 /* head */
 nav{
@@ -16,7 +24,6 @@ nav{
     background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
     -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-    /* color: linear; */
 }
 nav ul{
     display: flex;
@@ -169,6 +176,7 @@ grid-template-areas:
 .feature{
     padding: 120px 200px 0;
     background-color: #1A0B2E;
+    padding-bottom: 120px;
 }
 /* video  */
 .box-video{
@@ -206,4 +214,81 @@ grid-template-areas:
 /* host */
 .host{
     margin-top: 120px;
+    color: white;
+   
+}
+.host h3{
+     font-size: 48px;
+    font-size: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#host-name{
+ font-size: 32px;
+ font-weight: bold;
+}
+.host #host-exp{
+ font-size: 16px;
+}
+.host-info{
+ background-color:#250D44;
+   border-radius: 40px;
+   display: flex;
+   /* align-items: center; */
+   padding: 48.5px 40px;
+}
+.host-info #img{
+    margin-right: 24px;
+}
+#host-name, #host-exp {
+    margin-bottom: 16px;
+    line-height: 24px;
+}
+.host-info .icon{
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #533C72;   
+}
+/* footer  */
+footer{
+    background-image: url(./assets/footer-bg.png);
+    background-size: contain;
+    background-position: bottom center;
+    /* background-repeat: no-repeat; */
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    /* flex-direction:column; */
+    /* align-items: center; */
+    justify-content: center;
+}
+.ft-name{
+    font-size: 80px;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+.ft-name #first{
+    color: white;
+}
+.ft-name #second{
+background: linear-gradient(#F7E93F,#FB09B4,#9100F8);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.ft-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ft-content .icon{
+    color: white;
+    display: flex;
+align-items: center;
+gap: 40px;
+margin-bottom: 32px;
+}
+.copy{
+    color: white;
 }
